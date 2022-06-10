@@ -12,7 +12,7 @@ function App() {
       <section className='app-hero-text'>
         <HeroText/>
       </section>
-      <section>
+      <section className='app-search-option'>
         <SearchOption/>
 
       </section>
