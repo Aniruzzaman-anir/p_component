@@ -1,8 +1,10 @@
 import "./SearchOption.scss"
-export default SearchOption = () => {
+const SearchOption = () => {
     return (
         <div>
-            
+            search option
         </div>
     )
 }
+
+export default  SearchOption

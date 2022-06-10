@@ -1,8 +1,14 @@
 import "./HeroText.scss"
-export default HeroText = () => {
+const HeroText = () => {
     return (
-        <div>
-            
+        <div className="hero-text">
+          <div>Exploring The World <br/> In Comfort.</div>
+          <section>
+          You do not have the right to remain silent… let us know what<br/> it takes to challenge you
+          </section>
+          
         </div>
     )
 }
+
+export default HeroText;

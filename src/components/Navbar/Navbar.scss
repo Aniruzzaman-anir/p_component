@@ -1,0 +1,59 @@
+nav{
+    width: 100%;
+    height: 80px;
+    
+    padding: 0 50px 0 50px;
+    div{
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        .n-logo-section{
+            cursor: pointer;
+        }
+         ul{
+             list-style: none;
+             display: flex;
+             li{
+                 margin-left: 40px;
+                 cursor: pointer;
+                 padding: 10pxs;
+                 color: white;
+                 
+                 img{
+                     height: 15px;
+                 }
+             }
+             span{
+                 width: 290px;
+                 height:370px;
+                 background-color: white;
+                 position: absolute;
+                 box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.75);
+                 top:50px;
+                 
+             }
+         }
+         .n-signup-trydemo-btn{
+         
+            .n-create-account-btn{
+              
+                height: 46px;
+                width: 152px;
+                color: white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+                border: 1px solid white;
+                border-radius: 4px;
+                transition: border 1s;
+                &:hover{
+                    border: 1px solid black;
+                }
+             }
+          
+         }
+    }
+}
