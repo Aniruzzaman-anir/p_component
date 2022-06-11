@@ -29,3 +29,23 @@
 
     }
   }
+.book-a-trip-section {
+    background-color: #f1eeee;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    .app-hero-text{
+         padding-top: 20vh;
+        
+    }
+    .app-navigation-btn-section{
+        margin-top: 15vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-bottom:25vh;
+
+    }
+}
